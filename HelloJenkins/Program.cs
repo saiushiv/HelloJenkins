@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace HelloJenkins
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello from Jenkins");
+            Console.WriteLine(printing());
+        }
+
+        public static String printing()
+        {
+            return "Hello";
         }
     }
 }
