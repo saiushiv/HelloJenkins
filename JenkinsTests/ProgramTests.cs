@@ -8,7 +8,7 @@ namespace HelloJenkins.Tests
         [TestMethod()]
         public void printingTest()
         {
-            Assert.AreEqual("Hello",Program.printing());
+            Assert.AreEqual("Hello World from Jenkins. Added Tests now", Program.printing());
         }
     }
 }
