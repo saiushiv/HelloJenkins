@@ -15,7 +15,7 @@ namespace HelloJenkins
 
         public static String printing()
         {
-            return "Hello World from Jenkins. Added Tests now";
+            return "Hello World from Jenkins. Added Tests now and hi from machine : " + Environment.MachineName;
         }
     }
 }

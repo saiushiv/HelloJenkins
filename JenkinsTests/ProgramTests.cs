@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace HelloJenkins.Tests
 {
@@ -8,7 +9,7 @@ namespace HelloJenkins.Tests
         [TestMethod()]
         public void printingTest()
         {
-            Assert.AreEqual("Hello World from Jenkins. Added Tests now", Program.printing());
+            Assert.AreEqual("Hello World from Jenkins. Added Tests now and hi from machine : " + Environment.MachineName, Program.printing());
         }
     }
 }
